@@ -1,0 +1,11 @@
+Nessa pasta são colocados estilos globais do projeto
+
+Estilos compartilhados: Estilos que são usados em vários componentes ou em todo o aplicativo podem ser colocados aqui. Isso inclui estilos para botões, inputs, tipografia, layouts básicos, etc.
+
+Estilos de componentes: Se você tiver componentes estilizados que não são compartilhados globalmente, mas são usados em várias partes do aplicativo, você pode colocar os estilos desses componentes na pasta styles também. Por exemplo, um componente de nav bar, header, footer, etc
+
+Variáveis de estilo globais: Assim como em config, também podem estar aqui, e pode ter outros tipos de variáveis de estilo globais, como variáveis de tamanho, espaçamento, tipografia, etc. Essas variáveis podem ser usadas em todo o projeto para manter uma consistência visual.
+
+Estilos de temas, animações e transições.
+
+Estilos específicos de layout: Se tiver estilos específicos de layout que são usados em várias partes do aplicativo, como grades, flexbox ou estilos de posicionamento, pode colocá-los na pasta styles.

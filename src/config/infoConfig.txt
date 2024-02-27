@@ -1,0 +1,17 @@
+A pasta config contem arquivos que armazenam configuirações específicas do projeto
+
+Configurações de estilo: variaveis de cor, fontes, tamanhos de texto, espaçamento, etc, temas, responsividade
+
+Configurações de ambiente: Configurações que variam entre diferentes ambientes de desenvolvimento, como desenvolvimento local, teste e produção. Isso pode incluir URLs de API, chaves de acesso a serviços externos, configurações de banco de dados, etc.
+
+Configurações de rota: Se você estiver usando algum sistema de roteamento, como o React Router, pode haver configurações relacionadas às rotas do aplicativo, como o mapeamento de URLs para componentes específicos.
+
+Configurações de autenticação/autorização: Configurações relacionadas a autenticação de usuário, como chaves de API de autenticação, configurações de OAuth, permissões de usuário, etc.
+
+Configurações de internacionalização (i18n): Se o seu aplicativo suporta vários idiomas, você pode ter arquivos de configuração relacionados à internacionalização, como arquivos de tradução ou configurações de formatação de datas e números para diferentes idiomas.
+
+Configurações de build: Configurações relacionadas ao processo de construção (build) do projeto, como configurações de webpack, Babel, ESLint, etc.
+
+Configurações de proxy: Se você precisa configurar um servidor proxy para lidar com solicitações de API ou lidar com CORS durante o desenvolvimento, essas configurações podem residir aqui.
+
+Configurações de ambiente de teste: Configurações específicas para testes automatizados, como configurações de Jest, Cypress, etc.

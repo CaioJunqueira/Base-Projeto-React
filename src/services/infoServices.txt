@@ -1,0 +1,15 @@
+Nessa pastas irá conter modulos ou classes responsaveis pela interação com serviços externos, como API's,
+Bancos de dados, serviços de autenticação, assim organizando e encapsulando a lógica de comunicação com serviços externos
+e funcionalidades relacionadas, e separando do resto na organização 
+
+API Services: Módulos ou classes que chamam e comunicam com as API's, incluindo métodos para buscar, enviar, atualizar, e excluir dados de uma API específica.
+
+Serviços de autenticação: Se o app requer autenticação de usuário, pode-se ter serviços dedicados para lidar com o processo de autenticação, como fazer login, logout, registrar novos usuários, gerenciar tokens de autenticação, etc.
+
+Serviços de armazenamento local: Serviços que lidam com a persistência de dados localmente no navegador (usando localStorage, IndexedDB, etc.) ou em um dispositivo móvel (usando AsyncStorage, SQLite, etc.). Isso pode ser útil para armazenar informações temporárias ou configurar cache de dados.
+
+Serviços de notificação: Se o app precisa enviar notificações para os usuários, podem ter serviços dedicados para lidar com o envio e gerenciamento dessas notificações, seja por meio de push notifications ou outros métodos.
+
+Integrações de terceiros: Serviços que integram o app com serviços de terceiros, como sistemas de pagamento, serviços de análise, plataformas de mídia social, etc. Esses serviços encapsulam a lógica de comunicação com os serviços externos e fornecem uma interface consistente para o restante do app.
+
+Serviços de utilidade: Serviços que fornecem funcionalidades de utilidade genéricas para o aplicativo, como formatação de datas, validação de entrada do usuário, manipulação de strings, etc. Esses serviços podem ser usados em todo o aplicativo sempre que necessário. (Pode também estar na pasta utils)

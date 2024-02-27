@@ -1,0 +1,4 @@
+Na pasta components irá ficar todos os componentes do projeto, como headers, sidebars, footers, buttons, inputs, etc
+mas em determinados projetos pode-se haver uma separação ainda maior, definindo pasta especifica de layouts ou containers
+para tais componentes, mas isso o dev deverá ver o que se encaixa mais com seu projeto
+
